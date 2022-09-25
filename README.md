@@ -1,1 +1,10 @@
-# application_programming_Lab_work2
+# Автор программы
+Кожинов Степан Максимович
+# Краткое описание
+Программа принимает предложение, после чего шифрует и дешифрует его спомощью шифра цезаря.
+# Руководства пользования
+Для запуска программы откройте файл lab_work03.py через любой IDE поддерживающий Pyton. После запуска программы взаимодействуйте с консолью IDE.
+# Тесты
+![image](https://user-images.githubusercontent.com/113775345/192144383-63107d63-e252-44b3-badc-ad96dd216475.png)
+![image](https://user-images.githubusercontent.com/113775345/192144418-b641ba7b-0efd-4ff6-b7b0-b044129d4a8c.png)
+![image](https://user-images.githubusercontent.com/113775345/192144450-fe563b14-4ead-44db-88e5-6875b4786d4a.png)
