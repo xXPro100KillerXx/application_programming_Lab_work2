@@ -15,15 +15,20 @@ step = int(input('Введите шаг(число) шифрования: '))
 resolt = ''
 tloser = ''
 
+
+while step > 33:
+    step -= 33
+k = step
+
 for i in range(0, len(x)):
     if x[i] == ' ':
         resolt += ' '
     else:
         m = alph[x[i]]
-        if m + step <= 33:
-            resolt += alphr[m + step]
+        if m + k <= 33:
+            resolt += alphr[m + k]
         else:
-            resolt += alphr[(m + step) - 33]
+            resolt += alphr[(m + k) - 33]
 
 
 
@@ -32,10 +37,10 @@ for i in range(0, len(resolt)):
         tloser += ' '
     else:
         m = alph[resolt[i]]
-        if m - step > 0:
-            tloser += alphr[m - step]
+        if m - k > 0:
+            tloser += alphr[m - k]
         else:
-            tloser += alphr[(m - step) + 33]
+            tloser += alphr[(m - k) + 33]
 
 print(resolt)
 print(tloser)
